@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://rest-api-azure.database.windows.net:1433;database=employee-db;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: rest-api-azure
+    password: Derevetskyimarkiyan010720010
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 8080
